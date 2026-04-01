@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap');
 
-/* ── VARIABLES ── */
+
 :root {
   --bg:       #F5F0E8;
   --surface:  #FFFFFF;
@@ -12,7 +12,7 @@
   --shadow:   0 2px 24px rgba(0,0,0,0.07);
 }
 
-/* ── RESET & BASE ── */
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
@@ -34,7 +34,7 @@ body {
   opacity: 0.5;
 }
 
-/* ── LAYOUT ── */
+
 .container {
   max-width: 680px;
   margin: 0 auto;
@@ -44,7 +44,7 @@ body {
   gap: 16px;
 }
 
-/* ── TYPOGRAPHY ── */
+
 h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 900;
@@ -75,7 +75,7 @@ p {
   font-size: 15px;
 }
 
-/* ── BADGE ── */
+
 .badge {
   display: inline-block;
   font-size: 12px;
@@ -88,7 +88,7 @@ p {
   border-radius: 100px;
 }
 
-/* ── CARDS ── */
+
 .card {
   background: var(--surface);
   border-radius: 16px;
@@ -162,7 +162,7 @@ p {
   text-align: left;
 }
 
-/* ── PROFILE IMAGE ── */
+
 .img-circle {
   border-radius: 50%;
   border: 3px solid var(--bg);
@@ -176,7 +176,7 @@ p {
   box-shadow: 0 0 0 5px var(--accent);
 }
 
-/* ── BIO ── */
+
 .bio {
   max-width: 380px;
   margin: 0 auto 28px;
@@ -184,7 +184,7 @@ p {
   color: var(--ink-soft);
 }
 
-/* ── BUTTON ── */
+
 .btn-main {
   display: inline-block;
   background: var(--accent);
@@ -204,7 +204,7 @@ p {
   transform: translateY(-2px);
 }
 
-/* ── LINKS LIST ── */
+
 .list-links {
   list-style: none;
   margin-top: 16px;
